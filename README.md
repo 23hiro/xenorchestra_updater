@@ -21,28 +21,28 @@ Basic usage, force rebuild, switch branch are the preferred operations, as you'l
 ```
 sudo bash
 <password>
-sudo curl https://raw.githubusercontent.com/Jarli01/xenorchestra_updater/master/xo-update.sh | bash
+curl https://raw.githubusercontent.com/Jarli01/xenorchestra_updater/master/xo-update.sh | sudo bash
 ```
 
 ### Force rebuild
 ```
 sudo bash
 <password>
-sudo curl https://raw.githubusercontent.com/Jarli01/xenorchestra_updater/master/xo-update.sh | bash -s -- -f 
+curl https://raw.githubusercontent.com/Jarli01/xenorchestra_updater/master/xo-update.sh | sudo bash -s -- -f 
 ```
 
 ### Switch branch
 ```
 sudo bash
 <password>
-sudo curl https://raw.githubusercontent.com/Jarli01/xenorchestra_updater/master/xo-update.sh | bash -s -- -b next-release
+curl https://raw.githubusercontent.com/Jarli01/xenorchestra_updater/master/xo-update.sh | sudo bash -s -- -b next-release
 ```
 
 ### Update Node
 ```
 sudo bash
 <password>
-sudo curl https://raw.githubusercontent.com/Jarli01/xenorchestra_updater/master/xo-update.sh | bash -s -- -n stable
+curl https://raw.githubusercontent.com/Jarli01/xenorchestra_updater/master/xo-update.sh | sudo bash -s -- -n stable
 ```
 
 ### Installing Yarn
